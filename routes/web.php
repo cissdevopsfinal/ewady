@@ -15,6 +15,6 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/test',function (){
+Route::get('/mina',function (){
     return response()->json(['status'=>'Hello World']);
 });
